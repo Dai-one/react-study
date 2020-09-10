@@ -1,0 +1,87 @@
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.child {
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+}
+
+.language {
+  display: flex;
+}
+
+.language > span {
+  flex: 1;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.language > span.on {
+  background: orange;
+  color: #fff;
+}
+
+.layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(128, 128, 128, 0.1);
+}
+
+.layer .ming-modal {
+  width: 450px;
+  height: 190px;
+  background: #ccc;
+  border-radius: 10px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.layer .ming-modal .modal-top {
+  height: 35px;
+  line-height: 35px;
+  overflow: hidden;
+}
+
+.layer .ming-modal .modal-top .close {
+  cursor: pointer;
+  float: right;
+}
+
+.layer .ming-modal .modal-mid {
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.layer .ming-modal .modal-bot {
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+.layer .ming-modal .modal-bot span {
+  float: right;
+  background: #66b1ff;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  padding: 0 20px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}

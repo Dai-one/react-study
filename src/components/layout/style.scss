@@ -1,0 +1,31 @@
+.ming{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  .ming-aside{
+    position: absolute;
+    left: 0;
+    width: 170px;
+    bottom: 0;
+    top: 0;
+    .link-row{
+      line-height: 30px;
+      a{
+        text-decoration: none;
+        color: #000;
+      }
+      a.on{
+        color: red;
+      }
+    }
+  }
+  .ming-main{
+    position: absolute;
+    left: 170px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+  }
+}
